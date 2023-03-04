@@ -25,6 +25,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -61,9 +62,11 @@
           "configurations": {
             "production": {
               "browserTarget": "employee-management-application-frontend:build:production"
+              
             },
             "development": {
               "browserTarget": "employee-management-application-frontend:build:development"
+             
             }
           },
           "defaultConfiguration": "development"
@@ -72,6 +75,7 @@
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
             "browserTarget": "employee-management-application-frontend:build"
+            
           }
         },
         "test": {
